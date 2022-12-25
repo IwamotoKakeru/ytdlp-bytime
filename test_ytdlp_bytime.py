@@ -1,4 +1,4 @@
-import ytdlp_bytime
+import ytdlp_bytime as yt_bt
 
 
 def main():
@@ -6,7 +6,7 @@ def main():
     start_time: int = 10
     end_time: int = 45
 
-    ytdlp_bytime.download_movie_bytime(movie_url, start_time, end_time)
+    yt_bt.Download.movie(movie_url, start_time, end_time)
 
 
 if __name__ == "__main__":
